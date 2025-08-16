@@ -1,12 +1,40 @@
-# React + Vite
+# 🏙️ CityService  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**CityService** is an e-commerce-like platform designed to connect users with local service providers in their area. Whether you need a **plumber, electrician, driver, aya, or other skilled workers**, CityService makes it easy to find, hire, and manage services online.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
 
-## Expanding the ESLint configuration
+- 🔑 **User Authentication** – Secure login and signup functionality.  
+- 🛠️ **Find Local Services** – Browse and hire workers in your area for different jobs.  
+- 📦 **Order Management** – Users can request services, and workers can accept and fulfill orders.  
+- 👨‍🔧 **Service Categories** – Supports a variety of jobs such as:  
+  - Plumber  
+  - Electrician  
+  - Driver  
+  - Aya (Caretaker/Nanny)  
+  - More categories coming soon!  
+- 📍 **Location-Based Matching** – Connects users with workers in their local area.  
+- 💳 **E-commerce Experience** – Seamless order and booking workflow similar to shopping platforms.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tech Stack  
+
+- **Frontend**: React.js / Tailwind CSS  
+- **Backend**: Node.js / Express.js  
+- **Database**: MongoDB  
+- **Authentication**: JWT / OAuth  
+- **Hosting**: Vercel (Frontend) + Render (Backend)  
+
+---
+
+## 📂 Project Structure  
+
+```bash
+CityService/
+├── client/         # Frontend (React)
+├── server/         # Backend (Node.js, Express)
+├── README.md       # Documentation
+```
