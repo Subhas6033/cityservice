@@ -4,6 +4,7 @@ import { Nav, Footer, Layout } from "./Components/index";
 
 const App = () => {
   return (
+    <>
     <Layout>
       <Nav />
       <main>
@@ -11,6 +12,7 @@ const App = () => {
       </main>
       <Footer />
     </Layout>
+    </>
   );
 };
 
