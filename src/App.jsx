@@ -1,11 +1,17 @@
-import React from 'react'
+import React from "react";
+import { Outlet } from "react-router-dom";
+import { Nav, Footer, Layout } from "./Components/index";
 
 const App = () => {
   return (
-    <div className='text-7xl text-center'>
-      
-    </div>
-  )
-}
+    <Layout>
+      <Nav />
+      <main>
+        <Outlet />
+      </main>
+      <Footer />
+    </Layout>
+  );
+};
 
-export default App
+export default App;
